@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 # URL de conexión a la base de datos SQL Server.
 # en el apartado de .env tambien se debe de poner 
 DATABASE_URL = (
-    "mssql+pyodbc://@DESKTOP-Q66BQ38\\MSSQLSERVER01/bd_Genpact?"
+    "mssql+pyodbc://@DESKTOP-JM0C7CR\SQLDEVELOPER/bd_Genpact?"
     "driver=ODBC+Driver+17+for+SQL+Server&Trusted_Connection=yes"
 )
 
